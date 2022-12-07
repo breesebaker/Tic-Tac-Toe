@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+#gameContainer {
+  font-family: Silkscreen;
+  text-align: center;
+}
+#gridContainer {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  width: 250px;
+  margin: auto;
+}
+.cell {
+  width: 80px;
+  height: 80px;
+  border: 3px solid;
+  box-shadow: 0 0 0 3px;
+  font-size: 75px;
+  cursor: pointer;
+
+}
