@@ -3,14 +3,12 @@
 #gameContainer {
   font-family: Silkscreen;
   text-align: center;
-  background-color: crimson;
 }
 #gridContainer {
   display: grid;
   grid-template-columns: repeat(3, auto);
   width: 250px;
   margin: auto;
-  color: darkgrey;
 }
 .cell {
   width: 80px;
@@ -19,6 +17,5 @@
   box-shadow: 0 0 0 3px;
   font-size: 75px;
   cursor: pointer;
-  background-color: darkgoldenrod;
 
 }
